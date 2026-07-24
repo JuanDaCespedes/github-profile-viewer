@@ -1,0 +1,36 @@
+export type Language = 'es' | 'en';
+
+export const translations = {
+  es: {
+    title: 'Visualizador de Perfiles de GitHub',
+    subtitle: 'Explora métricas públicas y repositorios recientes',
+    searchPlaceholder: 'Ingresa un usuario de GitHub...',
+    searchButton: 'Buscar',
+    repositoriesTitle: 'Repositorios Recientes',
+    publicRepos: 'Repositorios Publicos',
+    followers: 'Seguidores',
+    following: 'Siguiendo',
+    stars: 'Estrellas',
+    forks: 'Forks',
+    viewGithubProfile: 'Ver en GitHub',
+    noDescription: 'Sin descripción proporcionada.',
+    notFound: 'No se encontró el perfil de GitHub solicitado.',
+    errorLoading: 'Ocurrió un error al cargar el perfil.',
+  },
+  en: {
+    title: 'GitHub Profile Viewer',
+    subtitle: 'Explore public metrics and recent repositories',
+    searchPlaceholder: 'Enter GitHub username...',
+    searchButton: 'Search',
+    repositoriesTitle: 'Recent Repositories',
+    publicRepos: 'Public Repos',
+    followers: 'Followers',
+    following: 'Following',
+    stars: 'Stars',
+    forks: 'Forks',
+    viewGithubProfile: 'View on GitHub',
+    noDescription: 'No description provided.',
+    notFound: 'Requested GitHub profile was not found.',
+    errorLoading: 'An error occurred while fetching the profile.',
+  },
+};
